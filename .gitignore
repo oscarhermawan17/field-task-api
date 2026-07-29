@@ -1,0 +1,13 @@
+# Local environment overrides (keep .env.example committed as documentation).
+.env
+.env.local
+
+# Go build and test artifacts.
+bin/
+*.exe
+*.test
+coverage.out
+
+# Runtime-generated files.
+tmp/
+uploads/
